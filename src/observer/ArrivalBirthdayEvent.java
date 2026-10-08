@@ -1,4 +1,7 @@
 package observer;
 
-public class ArrivalBirthdayEvent {
+import java.util.Date;
+
+public record ArrivalBirthdayEvent(Date arrivalTime) {
+
 }
