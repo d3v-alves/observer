@@ -1,4 +1,6 @@
 package observer;
 
-public class ArrivalBirthdayObserver {
+public interface ArrivalBirthdayObserver {
+
+    public void arrival(ArrivalBirthdayEvent event);
 }
